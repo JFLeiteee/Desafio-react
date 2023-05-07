@@ -56,7 +56,6 @@ export default function LoginForm() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-          <p>{email}</p>
         <div className='row'>
           <label htmlFor={'password'}>Password</label>
           <input id={'password'} type={'password'} 
